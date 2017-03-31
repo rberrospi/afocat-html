@@ -3,16 +3,24 @@
  * Copyright 2013-2016 Start Bootstrap
  * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap/blob/gh-pages/LICENSE)
  */
+html {
+  height: 100%;
+}
 body {
   background-color: #222;
   /*background-color: #fff;*/
+  height: 100%;
 }
 #wrapper {
   width: 100%;
 }
+#wrapper2{
+  height: 100%;
+  background-color: #fff;
+}
 #page-wrapper {
   padding: 0 15px;
-  min-height: 568px;
+  height: 100%;
   background-color: white;
 }
 @media (min-width: 768px) {
@@ -487,12 +495,6 @@ a:focus, a:hover {
   float: right;
 }
 
-#page-wrapper2 {
-    padding: 0 15px;
-    min-height: 568px;
-    background-color: white;
-}
-
 .center {
   text-align: center;
 }
@@ -505,7 +507,7 @@ a:focus, a:hover {
   display: block;
 }
 
-.bgwithe {
+.bgwhite {
   background-color: #fff!important;
 }
 
