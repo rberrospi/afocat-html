@@ -370,7 +370,7 @@
             <div id="page-wrapper">
                 <div class="row">
                     <div class="col-lg-12">
-                        <h2 class="page-header">Alta de Certificados</h2>
+                        <h2 class="page-header">Asignación de Certificado a Vendedores</h2>
                     </div>
                     <!-- /.col-lg-12 -->
                 </div>
@@ -381,70 +381,108 @@
                             <div class="col-lg-6">
                                 <div class="panel panel-default">
                                     <div class="panel-heading">
-                                       Registro de Lotes
-                                    </div>
-                                   <div class="panel-body">
+                                     Registro de Lotes
+                                 </div>
+                                 <div class="panel-body">
+                                   <div class="form-group">
+                                    <label>Asignar Lote a Vendedor</label>
+                                    <select class="form-control">
+                                        <option>Escojer Vendedor</option>
+                                        <option>Vendedor 1</option>
+                                        <option>Vendedor 2</option>
+                                        <option>Vendedor 3</option>
+                                        <option>Vendedor 4</option>
+                                    </select>
+                                </div>                       
+                                <div class="row">  
+                                    <div class="col-lg-6">  
                                         <div class="form-group">
-                                            <label>Año de CAT</label>
+                                            <label>Desde</label>
                                             <input class="form-control">
                                         </div>
-                                        <div class="row">                                    
-                                            <div class="col-lg-6">
-                                                <div class="form-group">
-                                                    <label>Desde</label>
-                                                    <input class="form-control">
-                                                </div>
-                                            </div>
-                                            <div class="col-lg-6">
-                                                <div class="form-group">
-                                                    <label>Hasta</label>
-                                                    <input class="form-control">
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="center">
-                                            <button type="button" class="btn btn-success">Guardar registro</button>
-                                            <button type="button" class="btn btn-danger">Cancelar</button>
-                                        </div>  
                                     </div>
-
+                                    <div class="col-lg-6">
+                                        <div class="form-group">
+                                            <label>Hasta</label>
+                                            <input class="form-control">
+                                        </div>
+                                    </div> 
+                                </div>
+                                <div class="center">
+                                    <button type="button" class="btn btn-success">Generar Registro</button>
+                                    <button type="button" class="btn btn-danger">Cancelar</button>
+                                </div>
+                                <hr>
+                                <div class="alert alert-success alert-dismissable">
+                                    <button type="button" class="close" data-dismiss="alert" aria-hidden="true">×</button>
+                                    Mensaje de resultado de asignación <a href="#" class="alert-link">jojo</a>.
                                 </div>
                             </div>
-                            <div class="col-lg-6"> 
-                               
-                                        <div class="panel panel-info">
-                                            <div class="panel-heading">
-                                                CAT´s Creados
-                                            </div>
-                                            <div class="panel-body">
-                                                <ul>
-                                                    <li>CAT 2015</li>
-                                                    <li>CAT 2016</li>
-                                                </ul>
-                                            </div>
-                                        </div>
+
+                        </div>
+                    </div>
+                    <div class="col-lg-6"> 
+                    <div class="panel panel-danger">
+                            <div class="panel-heading">
+                             Asignación de Certificados a Vendedores
+                         </div>
+                         <div class="panel-body">
+                            <div class="table-responsive">
+                                <table class="table">
+                                    <thead>
+                                        <tr>
+                                            <th>#</th>
+                                            <th>COD de Cert.</th>
+                                            <th>Vendedor</th>
+                                            <th>Fecha</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr>
+                                            <td>1</td>
+                                            <td>0521454</td>
+                                            <td>Pepelucho</td>
+                                            <td>22/02/2017</td>
+                                        </tr>
+                                        <tr>
+                                            <td>2</td>
+                                            <td>0024515</td>
+                                            <td>Rosita</td>
+                                            <td>04/04/2017</td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                            <!-- /.table-responsive -->
+
+                            <div class="center">
+                                <button type="button" class="btn btn-success">Confirmar registro</button>
+                                <button type="button" class="btn btn-danger">Cancelar</button>
                             </div>
                         </div>
                     </div>
                 </div>
-            <!-- /.row -->
+            </div>
         </div>
-        <!-- /#page-wrapper -->
-
     </div>
-    <!-- /#wrapper -->
+    <!-- /.row -->
+</div>
+<!-- /#page-wrapper -->
 
-    <!-- jQuery -->
-    <script src="../vendor/jquery/jquery.min.js"></script>
+</div>
+<!-- /#wrapper -->
 
-    <!-- Bootstrap Core JavaScript -->
-    <script src="../vendor/bootstrap/js/bootstrap.min.js"></script>
+<!-- jQuery -->
+<script src="../vendor/jquery/jquery.min.js"></script>
 
-    <!-- Metis Menu Plugin JavaScript -->
-    <script src="../vendor/metisMenu/metisMenu.min.js"></script>
+<!-- Bootstrap Core JavaScript -->
+<script src="../vendor/bootstrap/js/bootstrap.min.js"></script>
 
-    <!-- Custom Theme JavaScript -->
-    <script src="../dist/js/sb-admin-2.js"></script>
+<!-- Metis Menu Plugin JavaScript -->
+<script src="../vendor/metisMenu/metisMenu.min.js"></script>
+
+<!-- Custom Theme JavaScript -->
+<script src="../dist/js/sb-admin-2.js"></script>
 
 </body>
 

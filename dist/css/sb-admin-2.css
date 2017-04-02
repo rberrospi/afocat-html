@@ -513,6 +513,10 @@ a:focus, a:hover {
   background-color: #fff!important;
 }
 
+.bgauto {
+  height: auto!important;
+}
+
 #page-wrapper2 {
   position: inherit;
   margin: 0 0 0 0!important;
